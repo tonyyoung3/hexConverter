@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="convert.css">
+</head>
+
+<body>
+  <div class="slidecontainer">
+    <div class='siliedrtSet'>
+      <span class='red'> R : </span>
+      <input type="range" min="0" max="255" value="0" class="slider" id="red">
+      <span class='red' id="outputRed"></span>
+    </div>
+    <div class='siliedrtSet'>
+      <span class='green'> G : </span>
+      <input type="range" min="0" max="255" value="0" class="slider" id="green">
+      <span class='green' id="outputGreen"></span>
+    </div>
+    <div class='siliedrtSet'>
+      <span class='blue'> B : </span>
+      <input type="range" min="0" max="255" value="0" class="slider" id="blue">
+      <span class='blue' id="outputBlue"></span>
+    </div>
+    <div><span id='bgColor'></span></div>
+
+  </div>
+  <script src="convert.js"></script>
+</body>
+
+</html>
